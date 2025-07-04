@@ -1,0 +1,1144 @@
+what is program:
+================
+
+It is a set of instruction.
+
+
+Structure of HTML:
+==================
+
+<html>............open tag
+<head>
+<title>
+some
+</title>
+<script></script>
+<style></style>
+</head>
+<body>
+code
+</body>
+</html>...........closing tag
+
+example;
+--------
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<b><i><h1>Welcome-1</h1></i>
+<u><h2>Weicome-2</h2></u></b>
+<h3>Welcome-3</h3>
+<h6>Welcome-6</h6>
+<p>This is  paragraph</p>
+<img src="images/logo.jpg" alt="logo" width="30%" height="40">
+</body>
+</html>
+
+
+HTML Formatting Elements:
+=========================
+
+Formatting elements were designd to display special types of text:
+
+* <b> - Bold text
+* <strong> - Important text
+* <i> - Italic text 
+* <small> - Smaller text
+* <del> - Deleted text
+
+
+To create a Table:
+==================
+ 
+tr - table row
+th - table heading
+td - table data
+
+example;
+--------
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<table border="1" width="30%" height="40%">
+<tr>
+<th>productID</th>
+<th>productName</th>
+<th>price</th>
+<th>QualityInstock</th>
+</tr>
+<tr>
+<td>1001</td>
+<td>Apple</td>
+<td>1000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>1002</td>
+<td>Apple-1</td>
+<td>1000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>1003</td>
+<td>Apple-2</td>
+<td>1000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>1004</td>
+<td>Apple-3</td>
+<td>1000</td>
+<td>500</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+Two Important Attributs is there:
+=================================
+
+1) Cellpadding and Cellspacing
+2) rowspan and colspan
+
+Cellpadding:
+============
+
+Cellpading is represents the distance between cell borders and the content within a cell.
+
+
+Cellspacing:
+============
+
+Cellspacing is represents the distance between cell.
+
+example;
+--------
+
+<table border="1" cellpadding="7" cellspacing="7">
+
+
+What does Clospan do?
+=====================
+
+Allow a single table cell to span the width of more than one cell or column.
+
+What does Rowspan do?
+=====================
+
+Allow a single table cell to span the height of more than one cell or row.
+
+example; -rowspan
+--------
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>month</th>
+<th>savings</th>
+<th>savings for holiday</th>
+</tr>
+<tr>
+<td>june</td>
+<td rowspan="2">50</td>
+</tr>
+<tr>
+<td>july</td>
+<td>100</td>
+</tr>
+</table>
+</body>
+</html>
+
+colspan;
+--------
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>month</th>
+<th>savings</th>
+</tr>
+<tr>
+<td>june</td>
+<td>50</td>
+</tr>
+<tr>
+<td>july</td>
+<td>100</td>
+</tr>
+<tr>
+<td colspan="2">Total:10000</td>
+</tr>
+</table>
+</body>
+</html>
+
+List:
+=====
+
+The collection of item or elements there are three types of list,
+
+* order list
+* unordered
+* Nested
+
+example;
+--------
+orderlist;
+
+<ol>
+<li>apple</li>
+<li>orange</li>
+<li>watermelon</li>
+<li>guava</li>
+</ol>
+
+unordered;
+
+<ul>
+<li>paper</li>
+<li>pencil</li>
+<li>eraser</li>
+<li>sharpner</li>
+</ul>
+
+Nested List;
+
+<h2>Nested list</h2>
+<ol>
+<li>vegetables</li>
+<ol>
+<li>brinjal</li>
+<li>carrot</li>
+<li>potato</li>
+</ol>
+
+<h2>nested list using unored list</h2>
+<ul>
+    <li>vegetables</li>
+    <ul>
+        <li>brinjal</li>
+        <li>carrot</li>
+        <li>potato</li>
+    </ul>
+    <li>biscuit</li>
+    <ul>
+        <li>Happy happy</li>
+        <li>sunfest</li>
+        <li>Dark fantasy</li>
+    </ul>
+</ul>
+
+<ul type="circle">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+</ul>
+
+<ul type="A">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+</ul>
+
+
+
+<ol>
+    <li>outer list item 1</li>
+    <ul>
+        <li>linner list item A</li>
+    </ul>
+</ol>
+
+
+A-tag-Anchor:
+=============
+
+Anchor tag it is used Navegation from one page to another page.
+
+example;
+--------
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <center>
+        <img src="images/cake 1.jpeg" alt="" width="300px" height="400px">
+        <h1>CAKE AND FOOD</h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Register</a>
+        <a href="">Login</a>
+    </center>
+</body>
+</html>    
+
+
+login and register page:
+========================
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <center>
+        <img src="images/cake 1.jpeg" alt="" width="300px" height="400px">
+        <h1>CAKE AND FOOD</h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Register</a>
+        <a href="">Login</a>
+
+        <h1>This is login page</h1>
+        <from>
+            <label>username</label>
+            <input type="password"><br>
+            <input type="submit" value="login">
+        </from>
+
+        <h1>This is Register page</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>username</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        male: <input type="radio" name="Gender"> female: <input type="radio" name="Gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>course</td>
+                    <td>
+                        UG <input type="checkbox"> PG <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>
+                        <select>
+                            <option>MCA</option>
+                            <option>MBA</option>
+                            <option>BBA</option>
+                            <option>BSC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="" id="" value="Register">
+                        <input type="reset" name="" id="" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>   
+
+Audio tag and Video tag:
+========================
+
+example;
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <center>
+        <audio controls>
+            <source src="" type="" >
+         </audio>
+
+        <!-- 
+         autoplay
+         controls
+         loop 
+         muted
+         proload
+         src -->
+
+        <video width="300" height="300" controls>
+            <source src="" type="">
+         </video>
+    </center>
+</body>
+</html>
+
+
+What is CSS:
+============
+
+* Css stands for cascading style sheets
+* Css describes html elements are to be displayed onscreen, in other media.
+* It can control the layout of multiple web pages all at onces.
+
+Why use css?
+============
+
+* Css is used to define styles for your web pages, including the design, layout and display for different screen sizes.
+
+Different types of stylesheet:
+==============================
+
+1) Inline stylesheet (inside the tag to style)
+2) Internal or embedded style(inside the head tag)
+3) External stylesheet(external *.css file)
+
+example;
+--------
+
+inline;
+<p style="color: blue; text-align: center;">paragraph</p>
+
+internal;
+<html>
+<head>
+    <title></title>
+    <style>
+        h1 {
+            color: aqua;
+            background-color: blueviolet;
+        }
+        
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Welcome</h1>
+        <p>this is para</p>
+    </center>
+</body>
+</html>
+
+
+external;
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+Differentype selector:
+======================
+
+* id selector
+* class selector
+* grouping selector
+* universal selector
+
+id selector:
+------------
+exmple;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        #f1{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Welcome</h1>
+        <h2 id="f1">Welcome-1</h2>
+        <p>this is para</p>
+    </center>
+</body>
+</html>
+
+class selector:
+---------------
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        .f1{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Welcome</h1>
+        <h2 class="f1">Welcome-1</h2>
+        <p>this is para</p>
+    </center>
+</body>
+</html>
+
+grouping selectors:
+-------------------
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        h1,h2,p{
+            background-color: blue;
+        }
+    </style>
+    </head>
+<body>
+    <center>
+        <h1>Welcome</h1>
+        <h2>Welcome-1</h2>
+        <p>this is para</p>
+    </center>
+</body>
+</html>
+
+universal seletr:
+-----------------
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        *{
+            background-color: blue;
+        }
+    </style>
+    </head>
+<body>
+    <center>
+        <h1>Welcome</h1>
+        <h2>Welcome-1</h2>
+        <p>this is para</p>
+    </center>
+</body>
+</html>
+
+
+* css-border
+* css-margins
+* css-padding
+* css-outline
+* css-text
+* css-decoration
+* css-transformation
+* css-spacing
+* css-possion
+* css-display
+* css-z-index
+* css-overflow
+* css-float
+* css-opacity
+
+
+Navbar:- vertical:
+==================
+
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: aqua;
+            border: 1px solid;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+        
+        li a {
+            display: block;
+            color: blueviolet;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: royalblue;
+            color: white;
+        }
+        
+        .active {
+            background-color: green;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+    </ul>
+    <div style="margin-left: 25%; padding: 1px 16px; height: 10000px;">Lorem 100</div>
+</body>
+</html>
+
+
+Navbar:- horizontal
+
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: aqua;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        li a:hover {
+            background-color: royalblue;
+        }
+        
+        .active {
+            background-color: green;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+    </ul>
+    <div>Lorem 100</div>
+</body>
+</html>
+
+
+Css flex box:
+=============
+
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        .flex-containner {
+            display: flex;
+            background-color: blueviolet;
+        }
+        
+        .flex-containner>div {
+            background-color: bisque;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-containner">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+    </div>
+</body>
+</html>
+
+
+Css Animations:
+===============
+
+Css allow animation of html elements without using javascript or flash.
+
+example;
+
+<html>
+<head>
+    <title></title>
+    <style>
+        div {
+            width: 400px;
+            height: 400px;
+            background-color: antiquewhite;
+            animation-name: demo;
+            position: relative;
+            animation-duration: 15s;
+            animation-delay: 5s;
+            animation-duration: reverse;
+        }
+        
+        @keyframes demo {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            25% {
+                background-color: yellow;
+                left: 150px;
+                top: 10px;
+            }
+            0% {
+                background-color: blueviolet;
+                left: 200px;
+            }
+            0% {
+                background-color: rgb(242, 48, 184);
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Animation</h1>
+    <div></div>
+</body>
+</html>
+
+
+What is Bootstrap?
+==================
+
+* Bootsrap is an front-end framework and easier web application, css library.
+* Bootsrap includes html and css based design templetes, forms, button, table, navigation, image carousels.
+* Bootsrap also we using responsive webpage.
+
+   Reference site for bootstrap https:// get bootstrap.com
+
+
+What is Javascript?
+===================
+
+* Javascript is a high-level, interpreted scripting language.
+* It is used to client-side and server-side
+
+Data types:
+===========
+
+String, Number, Boolean, Undefined, Null, Symbol.
+
+Pre-define function:
+====================
+
+prompt() - To getting the value as runtime.
+
+example;
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        var pid = 1000;
+        var pname = "Apple"
+        console.log("your value is::" + pid)
+        document.write("your value is::" + pid + "" + pname)
+    </script>
+</body>
+</html>
+
+-----------------
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        var pid = parseInt(prompt("Enter the pid is::"))
+        var pname = prompt("Enter the pname is::")
+        document.write("your value is::" + pid + "" + pname)
+    </script>
+</body>
+</html>
+
+Javascript Operators:
+=====================
+
+ Always operators is an doing some calculation a+b
+
+
+Types of operators:
+===================
+
+1) Arithmetic operators - (+,/,%,*,-,**,++,--)
+2) Assignment operators - (=,+=,-=,/=,%=,**=,*=)
+3) String operators - (+)
+4) Relational operators - (<,<=,>,>=,==,/=,===)
+5) Logical operators - (&&,||,!)
+
+
+Conditional Statement:
+======================
+  
+* Branching
+* Looping
+
+
+What is Branching?
+==================
+    
+  Single time execution
+
+* if statement
+* if else Statement
+* else if ladder statement
+* nested if else statement
+* switch statement
+
+Syntax:
+-------
+
+if;
+---
+
+if(condition){
+    // statement
+}
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let age = 18;
+        if (age >= 18) {
+            console.log("You are an adult")
+        }
+    </script>
+</body>
+
+</html>
+
+
+if...else;
+----------
+
+if(condition){
+    // statement
+}else{
+    // statement
+}
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let age = 16;
+        if (age >= 18) {
+            console.log("You are an adult...")
+        } else {
+            console.log("You are.....")
+        }
+    </script>
+</body>
+
+</html>
+
+
+else if ladder;
+---------------
+
+if...else if...else;
+--------------------
+
+if(condition 1){
+    // statement
+}else if(condition 2){
+    // statement
+}else{
+    // statement
+}
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let score = 85;
+        if (score >= 90) {
+            console.log("Grade:A");
+        } else if (score >= 80) {
+            console.log("Grade:B")
+        } else if (score >= 70) {
+            console.log("Grade:C")
+        } else {
+            console.log("Grade:D")
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+Nested if;
+----------
+
+if(condition 1){
+    if(condition 2){
+        // statement
+    }else{
+    // statement
+    }
+}else{
+    // statement
+}
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let get = 20;
+        let haspermission= true;
+        if (age >= 18) {
+            if(haspermission){
+onsole.log("Access granted");
+            }
+       
+    </script>
+</body>
+
+</html>
+
+
+switch statement;
+-----------------
+
+switch(expression){
+    case 1:
+    // stmt
+    break;
+    case 2:
+    // stmt
+    break;
+    case 3:
+    // stmt
+    break;
+    default:
+    // stmt
+    break;
+}
+
+
+What is looping:
+================
+ 
+Looping is working for iteration process.
+
+* for loop
+* nested for loop
+* while loop
+* do-while loop
+
+
+syntax;
+-------
+
+
+for loop;
+---------
+
+for(condition;initialization;increment){
+    // stmt
+}
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let count = 0;
+        while (count < 5) {
+            console.log("count");
+            count++
+        }
+    </script>
+</body>
+
+</html>
+
+nested for loop;
+----------------
+
+for(let outerindex=0; outerindex < outerlimit:outerindex++){
+    // stmt
+    for(let innerindex=0; innerindex < innerlimit:innerindex++){
+    // stmt
+    }
+}
+
+
+while loop;
+-----------
+
+while(condition){
+    // stmt
+}
+
+
+
+do-while loop;
+--------------
+
+do{
+    // stmt
+}while(condition);
+
+ex;
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+        let count = 0;
+        do {
+            console.log("Count");
+            count++;
+        } while (count < 5)
+    </script>
+</body>
+
+</html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

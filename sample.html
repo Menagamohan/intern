@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text">
+    <style>
+        /* img {
+            position: absolute;
+            z-index: -1;
+        } */
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: aqua;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        li a:hover {
+            background-color: royalblue;
+        }
+        
+        .active {
+            background-color: green;
+            color: aliceblue;
+        }
+        
+        img {
+            opacity: 0.2;
+        }
+        
+        img:hover {
+            opacity: 1.0;
+        }
+        
+        div {
+            width: 400px;
+            height: 400px;
+            background-color: antiquewhite;
+            animation-name: demo;
+            position: relative;
+            animation-duration: 15s;
+            animation-delay: 5s;
+            animation-duration: reverse;
+        }
+        
+        @keyframes demo {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            25% {
+                background-color: yellow;
+                left: 150px;
+                top: 10px;
+            }
+            50% {
+                background-color: rgb(101, 20, 176);
+                left: 200px;
+            }
+            100% {
+                background-color: rgb(242, 48, 184);
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+        </ul>
+
+
+        <h1>This is Audio </h1>
+        <audio controls>
+            <source src="" type="" >
+         </audio>
+
+        <!-- 
+         autoplay
+         controls
+         loop 
+         muted
+         proload
+         src -->
+        <h1>This is video</h1>
+        <video width="300" height="300" controls>
+            <source src="" type="">
+         </video><br><br>
+        <img src="images/banner 2.jpeg" alt="" width="40%" height="40%">
+        <h3>Menaga</h3>
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio adipisci saepe debitis. Fugit eum laudantium at enim reiciendis quisquam esse, vitae corrupti, quibusdam error cupiditate ullam adipisci id. Harum, sint. Voluptatibus assumenda quod,
+            quibusdam praesentium nemo mollitia, placeat libero pariatur voluptatum impedit numquam earum officia, eveniet odio quisquam odit labore maxime. Exercitationem aut labore mollitia voluptates, harum a eligendi quia adipisci quisquam accusantium
+            eius maxime molestias hic dolor quod error enim alias iste qui, delectus, sequi voluptatem! Voluptatibus minus, aperiam commodi aliquid asperiores eveniet est, culpa recusandae modi ex sapiente eaque. Necessitatibus pariatur eius minus optio
+            vero officia cum dolore, adipisci suscipit perferendis asperiores eos consectetur illo? Exercitationem eligendi placeat animi maiores fugiat modi corporis velit recusandae quidem. Cupiditate officiis repellat modi aliquid dolor iste sunt odio
+            quisquam quod temporibus facere repellendus illo officia exercitationem, deserunt cum sint corporis sed adipisci aliquam! Corporis eos voluptatum qui eius magnam. Repudiandae dolores doloremque perspiciatis quos eligendi est, animi nesciunt
+            repellendus, consequuntur aliquid explicabo in vero consectetur, dolorem id atque quisquam possimus illum quae reiciendis unde numquam laudantium. Pariatur assumenda quidem omnis labore, perspiciatis nesciunt eaque consectetur! Laudantium
+            veniam reiciendis possimus fugit vitae, neque velit, incidunt, nihil cumque veritatis doloremque magnam id rerum!</p>
+
+
+
+
+        <h1>Css Animation</h1>
+        <div></div>
+
+    </center>
+</body>
+
+</html>
